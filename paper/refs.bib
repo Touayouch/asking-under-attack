@@ -1,0 +1,377 @@
+% ---------------------------------------------------------------------------
+% Bibliography for the draft "Asking Under Attack".
+% Entries marked TODO need a final check (authors or venue) before submission.
+% ---------------------------------------------------------------------------
+
+% ---------------- Prompt injection: attacks, benchmarks -------------------
+@inproceedings{greshake2023not,
+  title     = {Not What You've Signed Up For: Compromising Real-World {LLM}-Integrated Applications with Indirect Prompt Injection},
+  author    = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh and Endres, Christoph and Holz, Thorsten and Fritz, Mario},
+  booktitle = {Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec)},
+  year      = {2023}
+}
+
+@inproceedings{debenedetti2024agentdojo,
+  title     = {{AgentDojo}: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for {LLM} Agents},
+  author    = {Debenedetti, Edoardo and Zhang, Jie and Balunovi{\'c}, Mislav and Beurer-Kellner, Luca and Fischer, Marc and Tram{\`e}r, Florian},
+  booktitle = {Advances in Neural Information Processing Systems (Datasets and Benchmarks Track)},
+  year      = {2024}
+}
+
+@inproceedings{zhan2024injecagent,
+  title     = {{InjecAgent}: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents},
+  author    = {Zhan, Qiusi and Liang, Zhixiang and Ying, Zifan and Kang, Daniel},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  year      = {2024}
+}
+
+@inproceedings{liu2024formalizing,
+  title     = {Formalizing and Benchmarking Prompt Injection Attacks and Defenses},
+  author    = {Liu, Yupei and Jia, Yuqi and Geng, Runpeng and Jia, Jinyuan and Gong, Neil Zhenqiang},
+  booktitle = {33rd USENIX Security Symposium},
+  year      = {2024}
+}
+
+% TODO: add arXiv number.
+@misc{nasr2025attacker,
+  title        = {The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses against {LLM} Jailbreaks and Prompt Injections},
+  author       = {Nasr, Milad and Carlini, Nicholas and others},
+  howpublished = {arXiv preprint},
+  year         = {2025}
+}
+
+@inproceedings{chen2026learning,
+  title     = {Learning to Inject: Automated Prompt Injection via Reinforcement Learning},
+  author    = {Chen, Xin and Zhang, Jie and Tram{\`e}r, Florian},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2026}
+}
+
+% TODO: verify authors (code: github.com/xhOwenMa/AutoDojo).
+@article{autodojo2026,
+  title   = {{AutoDojo}: Adaptive Attacks Expose Superficial Defenses and User-Underspecification Limits in {LLM} Agents},
+  author  = {{TODO: verify authors}},
+  journal = {arXiv preprint arXiv:2606.15057},
+  year    = {2026}
+}
+
+@inproceedings{ruan2024toolemu,
+  title     = {Identifying the Risks of {LM} Agents with an {LM}-Emulated Sandbox},
+  author    = {Ruan, Yangjun and Dong, Honghua and Wang, Andrew and Pitis, Silviu and Zhou, Yongchao and Ba, Jimmy and Dubois, Yann and Maddison, Chris J. and Hashimoto, Tatsunori},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+% ---------------- Prompt injection: defenses -------------------------------
+@misc{meta2025promptguard2,
+  title        = {Llama Prompt Guard 2},
+  author       = {{Meta AI}},
+  howpublished = {Model card},
+  year         = {2025}
+}
+
+@inproceedings{zhu2025melon,
+  title     = {{MELON}: Provable Defense Against Indirect Prompt Injection Attacks in {AI} Agents},
+  author    = {Zhu, Kaijie and Yang, Xianjun and Wang, Jindong and Guo, Wenbo and Wang, William Yang},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2025}
+}
+
+@article{liang2025sieve,
+  title   = {{SIEVE}: Selective Integrity Verification and Escalation for Defending {LLM} Agents against Indirect Prompt Injection},
+  author  = {Liang, Zhibo and Hu, Tianze and Chen, Zaiye and Tang, Mingjie},
+  journal = {arXiv preprint arXiv:2512.06716},
+  year    = {2025}
+}
+
+@article{debenedetti2025camel,
+  title   = {Defeating Prompt Injections by Design},
+  author  = {Debenedetti, Edoardo and Shumailov, Ilia and Fan, Tianqi and Hayes, Jamie and Carlini, Nicholas and Fabian, Daniel and Kern, Christoph and Shi, Chongyang and Terzis, Andreas and Tram{\`e}r, Florian},
+  journal = {arXiv preprint arXiv:2503.18813},
+  year    = {2025}
+}
+
+@article{shi2025progent,
+  title   = {Progent: Programmable Privilege Control for {LLM} Agents},
+  author  = {Shi, Tianneng and He, Jingxuan and Wang, Zhun and Wu, Linyu and Li, Hongwei and Guo, Wenbo and Song, Dawn},
+  journal = {arXiv preprint arXiv:2504.11703},
+  year    = {2025}
+}
+
+@inproceedings{kolluri2026prudentia,
+  title     = {Optimizing Agent Planning for Security and Autonomy},
+  author    = {Kolluri, Aashish and Sharma, Rishi and Costa, Manuel and K{\"o}pf, Boris and Nie{\ss}en, Tobias and Russinovich, Mark and Tople, Shruti and Zanella-B{\'e}guelin, Santiago},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}
+}
+
+@inproceedings{chen2025struq,
+  title     = {{StruQ}: Defending Against Prompt Injection with Structured Queries},
+  author    = {Chen, Sizhe and Piet, Julien and Sitawarin, Chawin and Wagner, David},
+  booktitle = {34th USENIX Security Symposium},
+  year      = {2025}
+}
+
+@inproceedings{chen2025secalign,
+  title     = {{SecAlign}: Defending Against Prompt Injection with Preference Optimization},
+  author    = {Chen, Sizhe and Zharmagambetov, Arman and Mahloujifar, Saeed and Chaudhuri, Kamalika and Wagner, David and Guo, Chuan},
+  booktitle = {ACM Conference on Computer and Communications Security (CCS)},
+  year      = {2025}
+}
+
+@article{sha2025agent,
+  title   = {Agent Safety Alignment via Reinforcement Learning},
+  author  = {Sha, Zeyang and Tian, Hanling and others},
+  journal = {arXiv preprint arXiv:2507.08270},
+  year    = {2025}
+}
+
+@article{wang2025arlas,
+  title   = {Adversarial Reinforcement Learning for Large Language Model Agent Safety},
+  author  = {Wang, Zizhao and Li, Dingcheng and Keshava, Vaishakh and Wallis, Phillip and Balashankar, Ananth and Stone, Peter and Rutishauser, Lukas},
+  journal = {arXiv preprint arXiv:2510.05442},
+  year    = {2025}
+}
+
+% TODO: first names.
+@article{weng2026agentantibody,
+  title   = {{AgentAntibody}: An Adaptive Immune System for Defending {LLM} Agents against Prompt Injection},
+  author  = {Weng and Feng and Xie and Yu},
+  journal = {arXiv preprint arXiv:2608.04053},
+  year    = {2026}
+}
+
+% ---------------- Asking, escalation, human approval ----------------------
+@misc{openai2025operator,
+  title  = {Operator System Card},
+  author = {{OpenAI}},
+  year   = {2025}
+}
+
+@inproceedings{ren2023knowno,
+  title     = {Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners},
+  author    = {Ren, Allen Z. and Dixit, Anushri and Bodrova, Alexandra and Singh, Sumeet and Tu, Stephen and Brown, Noah and Xu, Peng and Takayama, Leila and Xia, Fei and Varley, Jake and Xu, Zhenjia and Sadigh, Dorsa and Zeng, Andy and Majumdar, Anirudha},
+  booktitle = {Conference on Robot Learning (CoRL)},
+  year      = {2023}
+}
+
+@article{trinh2026hilbench,
+  title   = {{HiL-Bench} (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?},
+  author  = {Trinh, Tu and Elfeki, Mohamed and Luo, Guangze and Luu, Kelvin and Hunt, Nathan and others},
+  journal = {arXiv preprint arXiv:2604.09408},
+  year    = {2026}
+}
+
+@article{dossantos2026act,
+  title   = {Act or Escalate? {E}valuating Escalation Behavior in Automation with Language Models},
+  author  = {{DosSantos DiSorbo}, Matthew and Ju, Harang},
+  journal = {arXiv preprint arXiv:2604.08588},
+  year    = {2026}
+}
+
+% TODO: full author list.
+@article{zhang2026askless,
+  title   = {Ask Less, Ask Better: Allocating User Attention in Proactive {LLM} Agents with Interruption Budgets},
+  author  = {Zhang and others},
+  journal = {arXiv preprint arXiv:2610.24411},
+  year    = {2026}
+}
+
+@article{piatrashyn2026redact,
+  title   = {{ReDAct}: Uncertainty-Aware Deferral for {LLM} Agents},
+  author  = {Piatrashyn, Dzianis and Kotelevskii, Nikita and Grishchenkov, Kirill and Glazkov, Nikita and Nasonov, Ivan and Makarov, Ilya and Baldwin, Timothy and Nakov, Preslav and Vashurin, Roman and Panov, Maxim},
+  journal = {arXiv preprint arXiv:2604.07036},
+  year    = {2026}
+}
+
+@inproceedings{overman2026oversight,
+  title     = {The Oversight Game: Learning to Cooperatively Balance an {AI} Agent's Safety and Autonomy},
+  author    = {Overman, William and Bayati, Mohsen},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  series    = {PMLR},
+  volume    = {306},
+  year      = {2026}
+}
+
+% TODO: verify authors.
+@inproceedings{effectguard2026,
+  title     = {Approve the Effect, Not the Tool Call: Preventing Stale Consent in Tool-Using Agents},
+  author    = {{TODO: verify authors}},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2026}
+}
+
+% ---------------- Learning to defer, fatigue -----------------------------
+@inproceedings{madras2018predict,
+  title     = {Predict Responsibly: Improving Fairness and Accuracy by Learning to Defer},
+  author    = {Madras, David and Pitassi, Toniann and Zemel, Richard},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2018}
+}
+
+@inproceedings{mozannar2020consistent,
+  title     = {Consistent Estimators for Learning to Defer to an Expert},
+  author    = {Mozannar, Hussein and Sontag, David},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2020}
+}
+
+@article{alves2024deccaf,
+  title   = {Cost-Sensitive Learning to Defer to Multiple Experts with Workload Constraints},
+  author  = {Alves, Jean V. and Leit{\~a}o, Diogo and Jesus, S{\'e}rgio and Sampaio, Marco O. P. and Li{\'e}bana, Javier and Saleiro, Pedro and Figueiredo, M{\'a}rio A. T. and Bizarro, Pedro},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2024}
+}
+
+@article{zhang2026falcon,
+  title   = {Fatigue-Aware Learning to Defer via Constrained Optimisation},
+  author  = {Zhang, Zheng and Nguyen, Cuong C. and Rosewarne, David and Wells, Kevin and Carneiro, Gustavo},
+  journal = {arXiv preprint arXiv:2604.00904},
+  year    = {2026}
+}
+
+@article{turan2026oversight,
+  title   = {Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human},
+  author  = {Turan, Emre},
+  journal = {arXiv preprint arXiv:2606.08919},
+  year    = {2026}
+}
+
+% ---------------- Warning fatigue, vigilance ------------------------------
+@inproceedings{akhawe2013alice,
+  title     = {Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness},
+  author    = {Akhawe, Devdatta and Felt, Adrienne Porter},
+  booktitle = {22nd USENIX Security Symposium},
+  year      = {2013}
+}
+
+@inproceedings{anderson2015polymorphic,
+  title     = {How Polymorphic Warnings Reduce Habituation in the Brain: Insights from an {fMRI} Study},
+  author    = {Anderson, Bonnie Brinton and Kirwan, C. Brock and Jenkins, Jeffrey L. and Eargle, David and Howard, Seth and Vance, Anthony},
+  booktitle = {Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI)},
+  year      = {2015}
+}
+
+@inproceedings{bravolillo2013attention,
+  title     = {Your Attention Please: Designing Security-Decision {UI}s to Make Genuine Risks Harder to Ignore},
+  author    = {Bravo-Lillo, Cristian and Cranor, Lorrie Faith and Downs, Julie and Komanduri, Saranga and Reeder, Robert W. and Schechter, Stuart and Sleeper, Manya},
+  booktitle = {Symposium on Usable Privacy and Security (SOUPS)},
+  year      = {2013}
+}
+
+@article{warm2008vigilance,
+  title   = {Vigilance Requires Hard Mental Work and Is Stressful},
+  author  = {Warm, Joel S. and Parasuraman, Raja and Matthews, Gerald},
+  journal = {Human Factors},
+  volume  = {50},
+  number  = {3},
+  pages   = {433--441},
+  year    = {2008}
+}
+
+@article{cvach2012alarm,
+  title   = {Monitor Alarm Fatigue: An Integrative Review},
+  author  = {Cvach, Maria},
+  journal = {Biomedical Instrumentation \& Technology},
+  volume  = {46},
+  number  = {4},
+  pages   = {268--277},
+  year    = {2012}
+}
+
+% ---------------- Constrained RL, RL for LLM agents, dialogue -------------
+@book{altman1999constrained,
+  title     = {Constrained {M}arkov Decision Processes},
+  author    = {Altman, Eitan},
+  publisher = {Chapman and Hall/CRC},
+  year      = {1999}
+}
+
+@inproceedings{tessler2019rcpo,
+  title     = {Reward Constrained Policy Optimization},
+  author    = {Tessler, Chen and Mankowitz, Daniel J. and Mannor, Shie},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2019}
+}
+
+@inproceedings{stooke2020pid,
+  title     = {Responsive Safety in Reinforcement Learning by {PID} {L}agrangian Methods},
+  author    = {Stooke, Adam and Achiam, Joshua and Abbeel, Pieter},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2020}
+}
+
+@article{shao2024deepseekmath,
+  title   = {{DeepSeekMath}: Pushing the Limits of Mathematical Reasoning in Open Language Models},
+  author  = {Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, Y. K. and Wu, Y. and Guo, Daya},
+  journal = {arXiv preprint arXiv:2402.03300},
+  year    = {2024}
+}
+
+@article{liu2025drgrpo,
+  title   = {Understanding {R1-Zero}-Like Training: A Critical Perspective},
+  author  = {Liu, Zichen and Chen, Changyu and Li, Wenjun and Qi, Penghui and Pang, Tianyu and Du, Chao and Lee, Wee Sun and Lin, Min},
+  journal = {arXiv preprint arXiv:2503.20783},
+  year    = {2025}
+}
+
+@inproceedings{hu2022lora,
+  title     = {{LoRA}: Low-Rank Adaptation of Large Language Models},
+  author    = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022}
+}
+
+@article{jin2025searchr1,
+  title   = {{Search-R1}: Training {LLMs} to Reason and Leverage Search Engines with Reinforcement Learning},
+  author  = {Jin, Bowen and Zeng, Hansi and Yue, Zhenrui and Yoon, Jinsung and Arik, Sercan and Wang, Dong and Zamani, Hamed and Han, Jiawei},
+  journal = {arXiv preprint arXiv:2503.09516},
+  year    = {2025}
+}
+
+@article{yang2025qwen3,
+  title   = {Qwen3 Technical Report},
+  author  = {Yang, An and others},
+  journal = {arXiv preprint arXiv:2505.09388},
+  year    = {2025}
+}
+
+@misc{hilton2025art,
+  title        = {{ART}: Agent Reinforcement Trainer},
+  author       = {Hilton, Brad and Corbitt, Kyle and others},
+  howpublished = {\url{https://github.com/OpenPipe/ART}},
+  year         = {2025}
+}
+
+@inproceedings{kwon2023vllm,
+  title     = {Efficient Memory Management for Large Language Model Serving with {PagedAttention}},
+  author    = {Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E. and Zhang, Hao and Stoica, Ion},
+  booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles (SOSP)},
+  year      = {2023}
+}
+
+@misc{unsloth2023,
+  title        = {Unsloth},
+  author       = {Han, Daniel and Han, Michael},
+  howpublished = {\url{https://github.com/unslothai/unsloth}},
+  year         = {2023}
+}
+
+@article{singh2002njfun,
+  title   = {Optimizing Dialogue Management with Reinforcement Learning: Experiments with the {NJFun} System},
+  author  = {Singh, Satinder and Litman, Diane and Kearns, Michael and Walker, Marilyn},
+  journal = {Journal of Artificial Intelligence Research},
+  volume  = {16},
+  pages   = {105--133},
+  year    = {2002}
+}
+
+@article{young2013pomdp,
+  title   = {{POMDP}-Based Statistical Spoken Dialog Systems: A Review},
+  author  = {Young, Steve and Ga{\v{s}}i{\'c}, Milica and Thomson, Blaise and Williams, Jason D.},
+  journal = {Proceedings of the IEEE},
+  volume  = {101},
+  number  = {5},
+  pages   = {1160--1179},
+  year    = {2013}
+}

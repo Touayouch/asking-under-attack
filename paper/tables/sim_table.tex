@@ -1,0 +1,18 @@
+\begin{tabular}{lrrrr}
+\toprule
+Policy & ASR (\%) $\downarrow$ & Benign done (\%) $\uparrow$ & Asks/session & Reward $\uparrow$ \\
+\midrule
+Autonomous (never ask) & 14.7 & 82.9 & 0.0 & 23.9 \\
+Always confirm & 67.3 & 100.0 & 40.0 & 1.0 \\
+Static guard (fatigue-unaware) & 34.8 & 99.7 & 18.7 & 18.2 \\
+Myopic fatigue-aware (Prop.~1) & 9.6 & 92.7 & 11.6 & 27.2 \\
+Fatigue-aware optimal (DP, $\lambda{=}L$) & 10.5 & 95.3 & 9.0 & 28.3 \\
+\midrule
+CMDP optimum (DP, $\lambda^\star$) & 5.0 & 85.4 & 10.3 & 26.7 \\
+\midrule
+Alg.~1, fatigue-free simulator & 52.9 & 99.7 & 39.1 & 6.9 \\
+Alg.~1, fixed profile & 5.2 & 82.0 & 10.0 & 25.4 \\
+Alg.~1, randomized profiles & 5.1 & 82.2 & 11.1 & 25.3 \\
+Alg.~1, per-group std (vanilla GRPO) & 25.7 & 99.1 & 5.1 & 24.4 \\
+\bottomrule
+\end{tabular}
